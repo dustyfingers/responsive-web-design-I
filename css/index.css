@@ -108,7 +108,6 @@ h1, h2, h3, h4, h5 {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-
 }
 
 .nav-list-item {
@@ -204,6 +203,27 @@ footer {
 
 /* tablet/med size screen */
 @media only screen and (max-width: 800px) {
+	.container {
+		width: 98%;
+	}
+
+	.header-nav {
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.nav-list {
+		align-items: center;
+		width: 100%;
+		justify-content: space-between;
+		margin-top: 4rem;
+	}
+
+	.nav-list-item {
+		margin-right: 0;
+	}
 
 }
 
