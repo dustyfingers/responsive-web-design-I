@@ -247,10 +247,53 @@ footer {
 	.computer-img {
 		display: none;
 	}
-
 }
 
 /* phone/sm size screen */
 @media only screen and (max-width: 500px) {
+	.header-nav {
+		margin: 0;
+		margin-top: 1rem;
+	}
 
+	.nav-list {
+		flex-direction: column;
+		margin-top: 1rem;
+		text-align: center;
+	}
+	
+	.first {
+		border-top: 0.5px solid black;
+	}
+
+	.nav-list-item {
+		padding: 0.5rem;
+		width: 100%;
+		margin: 0;
+		border-bottom: 0.5px solid black;
+	}
+
+	.landing-section {
+		margin: 3rem auto 0 auto;
+	}
+
+	.call-to-action {
+		font-size: 4rem
+	}
+
+	.cta-button {
+		width: 90%;
+	}
+
+	.content-section-container {
+		flex-direction: column;
+	}
+
+	.card {
+		margin-bottom: 2rem;
+	}
+
+	.middle-img {
+		margin: 0 auto 2rem auto;
+	}
 }
