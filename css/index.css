@@ -200,3 +200,14 @@ footer {
 	padding: 5rem;
 }
 
+/* media queries */
+
+/* tablet/med size screen */
+@media only screen and (max-width: 800px) {
+
+}
+
+/* phone/sm size screen */
+@media only screen and (max-width: 500px) {
+
+}
